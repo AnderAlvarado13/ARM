@@ -1,0 +1,271 @@
+:root{
+    --red:#141681;
+    --black:#1C1B1B;
+    --blue:#141681;
+    --white:#eaeaea;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #fff;
+    overflow-x: hidden;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/*HEADER*/
+
+#header{
+    position: relative;
+    width: 100%;
+}
+
+.menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 63px;
+    background: rgb(252, 252, 252);
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 9999;
+    border-bottom: 2px var(--blue);
+
+}
+
+.menu .logo-box{
+    margin-left: 20px;
+}
+
+.menu .logo-box h1 a{
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 400;
+    color: var(--white);
+}
+.menu .list-container {
+
+    margin-right: 20px;
+
+}
+
+
+.menu .list-container .list{
+    display: flex;
+
+}
+
+.menu .list-container .list li{
+    list-style: none;
+
+} 
+
+.menu .list-container .list li a{
+   text-decoration: none;
+   margin: 0px 10px;
+   padding: 9px;
+   color: var(--blue);
+   border-radius: 24px;
+   font-size: 16px;
+   transition: 0.3s;
+
+} 
+
+.menu .list-container .list li a.activo{
+    top: 0;
+    left: 0;
+    background:  var(--blue);
+    color: #fff;
+    margin: 0 0;
+}
+
+.menu .list-container .list li a:hover{
+    background:  var(--blue);
+    color: #fff;
+}
+
+.btn-menu > .fa-bars{
+    display: none;
+}
+
+/*Skew*/
+
+
+.skew-ariba{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-width: 8vh 100vw 0 0;
+    border-style: solid;
+    border-color:#fff transparent transparent transparent;
+    z-index: 10;
+}
+
+.skew-abajo{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-width: 100vw  8vh  0 0;
+    border-style: solid;
+    border-color: transparent  #fff transparent  transparent ;
+}
+
+/* IMG header */
+
+.img-header{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(../img/autobus.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.img-header .welcome{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.img-header .welcome{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img-header .welcome h1{
+    font-size: 50px;
+    color: #fff;
+    font-weight: 200;
+}
+
+.img-header .welcome hr{
+    width: 400px;
+    height: 2px;
+    background: #fff;
+    border: none;
+    margin-top: 5px;
+ }
+
+ .img-header .welcome p{
+
+    font-size: 20px;
+    color: #fff;
+    margin-top: 20px;
+ }
+
+ .img-header .welcome > button{
+
+    width: 140px;
+    height: 38px;
+    background:#141681;
+    border-radius: 24px;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    color:#fff;
+    text-align: center;    
+    margin-top: 30px;
+    cursor: pointer;
+    position: 0.5s;
+
+
+ }
+
+ .img-header .welcome > button:hover{
+     background: blue;
+
+ }
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.contenedor{
+    padding: 60px;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.titulo{
+    color: #141681;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+
+.about-services{
+    background: #fff;
+    padding-top: 30px;
+}
+
+
+.servicio-cont{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.servicio-ind{
+    width: 30%;
+    text-align: center;
+}
+
+.servicio-ind img{
+    width: 100%;
+}
+
+.servicio-ind h3{
+    margin: 10px 0;
+}
+
+.servicio-ind p{
+    font-weight: 300;
+    text-align: inherit;
+}
+
+#video{
+    align-items: center;
+    padding-top: 10px;
+    width: 800px;
+    height: 450px;
+    margin: auto;
+}
+video{
+
+    align-items: center;
+    width: 800px;
+    height: 450px;
+}
