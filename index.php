@@ -230,7 +230,7 @@
         </section>
         <center>
       
-        <iframe class="fm-video" id="fm-video" width="560" height="315" 
+        <iframe class="fm-video" id="fm-video" 
         src="https://youtu.be/LRcaqOT7csU" 
         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
         allowfullscreen>

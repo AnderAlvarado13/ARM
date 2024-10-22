@@ -631,7 +631,7 @@ body{
     color: #eee7e7;
 }
 
-video{
+.fm-video{
     margin: 1 auto;
     padding-top: 20px;
     width: 640px;
@@ -688,7 +688,7 @@ video{
         background:none;
         color:var(--red);
     }
-    video{
+    .fm-video{
         margin: 1 auto;
         padding-top: 20px;
         width: 100%;
